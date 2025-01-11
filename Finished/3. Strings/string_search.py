@@ -21,7 +21,7 @@ except ValueError:
 print("Is 'fox' present:", "fox" in sample_text)
 
 # Using rfind() to find the last occurrence of a substring
-print("Last occurrence of 'a':", sample_text.rfind("the"))
+print("Last occurrence of 'the':", sample_text.rfind("the"))
 
 # Using rindex() to find the last occurrence of a substring (raises ValueError if not found)
 print("Last occurrence of 'jump':", sample_text.rindex("jump"))

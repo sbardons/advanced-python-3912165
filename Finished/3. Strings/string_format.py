@@ -4,7 +4,7 @@
 # Basic formatting - center(), ljust(), rjust()
 print("center".center(40, '-'))
 print("left".ljust(40, '.'))
-print("right".rjust(40, '.'))
+print("right".rjust(60, '.'))
 
 # Formatting strings with format specification codes
 # Format spec is: [[fill]align][sign]["z"]["#"]["0"][width][grouping_option]["."precision][type]
@@ -24,7 +24,7 @@ print(f"{val4:.2f}")
 
 # Use alignment and width and leading zeros
 # < is left align, > is right align, ^ is centered
-print(f"{val1:>10.2f}")
+print(f"{val1:^10.2f}")
 print(f"{val2:>10.2f}")
 print(f"{val3:>10.2f}")
 print(f"{val4:>10.2f}")

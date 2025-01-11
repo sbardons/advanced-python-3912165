@@ -23,3 +23,5 @@ val_data = {
     "total": s,
     "average": s/l
 }
+
+pprint.pp(val_data)
